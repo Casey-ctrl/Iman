@@ -1,0 +1,34 @@
+body{
+    background:linear-gradient(lightgrey);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size:cover;
+}
+#container li{
+    font-style: italic;
+    color:rgba(128, 0, 128, 0.652);
+    font-weight:bold;
+    font-size:18px;
+
+}
+h1{
+    background-color: blue;
+    display: inline;
+    border-radius:3px;
+   
+}
+a{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img{
+    
+    width:350px;
+}
+#container dt{
+    text-align: center;
+}
+h2{
+    text-align:center;
+}

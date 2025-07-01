@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html>
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="animation slide bar">
+    <meta name="keywords" content="animation, slide, bar">
+    <meta name="author" content="Casey's animation bar">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="30">
+    <title>Animation Progress</title>
+
+    <style>
+
+.body{
+    display:grid;
+    justify-content: center;
+    text-align: center;
+}
+
+.background{
+
+    width:350px;
+    padding:15px;
+    border-radius:20px;
+    background-color: grey;
+    border:none;
+
+}
+.progress{
+    color:purple;
+    animation: slide 5s infinite;
+
+}
+@keyframes slide{
+    0%{
+        width:0px;
+
+    }
+    80%{
+        width:16px;
+    }
+    100%{
+        width:16px;
+    }
+}
+
+
+
+    </style>
+</head>
+<body>
+
+
+<div class="background">
+
+</div>
+<div class="Progress">
+
+
+</div>
+
+</body>
+
+</html>
